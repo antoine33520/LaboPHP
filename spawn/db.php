@@ -1,0 +1,6 @@
+<?php
+
+$dsn=;
+$user=;
+$password=;
+
