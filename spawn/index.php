@@ -9,9 +9,9 @@ require 'spawn.php';
 
 <?php 
 if(isset($_POST['spawn'])){
-    if(isset($_POST['id']) && !(empty($_POST['id']))){
+    if (isset($_POST['id']) && !(empty($_POST['id']))) {
         $new_spawn = new_spawn($db,$_POST['id']);
-    }else{ 
+    } else { 
         $new_spawn = new_spawn($db,-1);
     }
     $name = $new_spawn['name'];

@@ -1,6 +1,6 @@
 <?php
 require 'db.php';
-if(isset($_GET['id']) && !empty($_GET['id'])) {
+if (isset($_GET['id']) && !empty($_GET['id'])) {
     $id = $_GET['id'];
 
     $req = $db->prepare('SELECT * FROM spawn WHERE id = ?');
