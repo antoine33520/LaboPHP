@@ -1,0 +1,11 @@
+<?php 
+require('usable.php');
+require('pokemon.php');
+require('bulbizarre.php');
+require('carapuce.php');
+require('salameche.php');
+require('ball.php');
+require('pokeball.php');
+require('superball.php');
+require('hyperball.php');
+require('masterball.php');
