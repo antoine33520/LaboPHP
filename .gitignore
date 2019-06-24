@@ -1,1 +1,13 @@
+# Vscode
 php.code-workspace
+
+# Vim tmp
+*.swp
+
+# Password Manager
+
+## Cache
+password/cache/*
+
+## Vendor
+password/vendor/
